@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "salvatore scala",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-breadboard-half", "id": "bb1", "top": 285, "left": -266, "attrs": {} },
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 38.4, "left": 62.44, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 400,
+      "left": 82.4,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 142.7, "left": -115.4, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 207.8,
+      "left": 230.4,
+      "attrs": { "color": "green", "xray": "1" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "bb1:tp.24", "red", [ "h0" ] ],
+    [ "esp:GND.1", "bb1:tn.25", "black", [ "h0" ] ],
+    [ "lcd1:GND", "bb1:tn.23", "black", [ "h0" ] ],
+    [ "lcd1:VCC", "bb1:tp.22", "red", [ "h-115.2", "v9.7", "h-212.8" ] ],
+    [ "lcd1:SDA", "esp:21", "yellow", [ "h-19.2", "v-201.4" ] ],
+    [ "esp:22", "lcd1:SCL", "green", [ "h38.4", "v288", "h-124.8", "v86.1" ] ],
+    [ "pot1:GND", "bb1:tn.18", "black", [ "v0" ] ],
+    [ "pot1:VCC", "bb1:tp.20", "red", [ "v0" ] ],
+    [ "pot1:SIG", "esp:34", "green", [ "v19.2", "h66.8", "v-124.8" ] ],
+    [ "btn1:2.l", "bb1:tn.21", "black", [ "h-67.2", "v57.8", "h-259.2", "v38.5" ] ],
+    [ "esp:4", "btn1:1.l", "magenta", [ "h67.2", "v9.6" ] ]
+  ],
+  "dependencies": {}
+}

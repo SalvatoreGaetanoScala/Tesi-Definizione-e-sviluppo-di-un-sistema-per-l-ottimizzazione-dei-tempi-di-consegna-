@@ -1,0 +1,74 @@
+[
+    {
+        "micro": "ESP1",
+        "ts1": "16:54:36",
+        "ts2": "16:54:52",
+        "tempo_servizio": 1,
+        "ts_netto": "00:00:15",
+        "via": "Bolivar",
+        "coord": "(469, 581)"
+    },
+    {
+        "micro": "ESP1",
+        "ts1": "18:37:40",
+        "ts2": "18:37:50",
+        "tempo_servizio": 1,
+        "ts_netto": "00:00:09",
+        "via": "Vulcano",
+        "coord": "(527, 575)"
+    },
+    {
+        "micro": "ESP1",
+        "ts1": "17:57:13",
+        "ts2": "17:57:26",
+        "tempo_servizio": 2,
+        "ts_netto": "00:00:13",
+        "via": "Europea",
+        "coord": "(456, 561)"
+    },
+    {
+        "micro": "ESP2",
+        "ts1": "18:01:10",
+        "ts2": "18:01:40",
+        "tempo_servizio": 1,
+        "ts_netto": "00:00:29",
+        "via": "Tecnica",
+        "coord": "(205, 663)"
+    },
+    {
+        "micro": "ESP4",
+        "ts1": "18:11:26",
+        "ts2": "18:11:47",
+        "tempo_servizio": 3,
+        "ts_netto": "00:00:20",
+        "via": "Mezzogiorno",
+        "coord": "(347, 577)"
+    },
+    {
+        "micro": "ESP1",
+        "ts1": "14:14:50",
+        "ts2": "14:15:23",
+        "tempo_servizio": 2,
+        "ts_netto": "00:00:32",
+        "via": "Rinascita",
+        "coord": "(398, 718)"
+    },
+    {
+        "micro": "ESP2",
+        "ts1": "16:43:39",
+        "ts2": "16:43:52",
+        "tempo_servizio": 2,
+        "ts_netto": "00:00:13",
+        "via": "Carpi",
+        "coord": "(362, 644)"
+    },
+    {
+        "micro": "ESP1",
+        "ts1": "10:43:09",
+        "ts2": "10:43:50",
+        "tempo_servizio": 6,
+        "ts_netto": "00:00:40",
+        "via": "Rosa",
+        "coord": "(405, 857)"
+    }
+]

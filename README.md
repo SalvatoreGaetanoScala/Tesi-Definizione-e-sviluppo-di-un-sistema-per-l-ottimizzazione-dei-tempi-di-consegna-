@@ -5,3 +5,6 @@ L'obiettivo è calcolare il "tempo di servizio" (tempo associato alla consegna d
 Vi sono 2 tipologie di script di codice:
 - quelli racchiusi nella cartella src che gestiscono la logica del sistema embedded (ESP32 simulato in locale in WOKWI);
 - quelli inseriti in SCRIPT_PYTHON che simulano una mappa generata randomicamente;
+
+Ogni volta che gaggiungiamo la meta calcoliamo questo tempo di servizio e salviamo i dati sia in locale (in JSON che in CSV) che online (tramite server WEBHOOK). 
+
